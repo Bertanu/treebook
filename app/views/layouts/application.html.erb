@@ -21,14 +21,14 @@
 						</li>
 
 						<li>
-								<%= link_to "Log out", destroy_user_session_path, method: :delete %>
+								<%= link_to "Log out", logout_path %>
 						</li>
 					<% else %>
 					    <li>
-					    	<%= link_to "Register", new_user_registration_path %>
+					    	<%= link_to "Register", register_path %>
 					    </li>
 					    <li>
-					    	<%= link_to "Giriş" , new_user_session_path %>
+					    	<%= link_to "Giriş" , login_path %>
 
 					    </li>
 
