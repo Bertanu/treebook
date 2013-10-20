@@ -2,5 +2,14 @@ bertan_ulusoy:
   first_name: "Bertan"
   last_name: "ULUSOY"
   email: "bertan_ulusoy@yahoo.com"
-  profile_name: "Bertan ULUSOY"
+  profile_name: "bertan_ulusoy"
+
+jim:
+  first_name: "Jim"
+  last_name: "Hoskins"
+  email: "jim@teamtreehouse.com"
+  profile_name: "jimhoskins"
+
+
+
 
