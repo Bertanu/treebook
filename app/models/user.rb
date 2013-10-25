@@ -21,7 +21,8 @@ class User < ActiveRecord::Base
                            }
 
   has_many :statuses
-  
+  has_many :user_friendship
+  has_many :friends, through: :user_friendship
   def full_name
   	first_name + " " + last_name
   end
